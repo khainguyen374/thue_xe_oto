@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content Website</title>
+	<meta name="description" content="Description Web"/>
+	<meta name="keywords" content="" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<link rel="icon" type="image/x-icon" href="/img/logo01-removebg-preview.ico">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/lightGallery.css" />
+	<link rel="stylesheet" href="css/lightslider.css"/>
+	<link rel="stylesheet" href="css/jquery.mmenu.positioning.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function() {
+            var includes = $('[data-include]')
+            $.each(includes, function() {
+                var file = 'layouts/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            });
+        });
+    </script>
+</head>
+<body>
+	<div class="lh-wrapper">
+		<div class="lh-header">
+			<div data-include="header"></div>
+			<!-- end block-slider -->
+
+		</div>
+		<!-- end lh-header -->
+		<div class="block-intro">
+			<div class="container">
+				<p class="lh2-title1">VỀ CHÚNG TÔI</p>
+				<p class="lh2-caption">ASCAR là công ty cho thuê xe, với nhiều năm kinh nghiệm trong việc cung cấp dịch vụ về vận tải, du lịch, tư vấn và lập kế hoạch đi du lịch tới các điểm đến nổi tiếng.<br/> 
+					Chúng tôi có một mạng lưới liên kết lữ hành rộng và cung cấp các dịch vụ hỗ trợ lập kế hoạch...</p>
+				<div class="row">
+					<div class="col-lg-4 item-intro">
+						<div class="img-height">
+							<a href=""><img src="img/icon1.png" alt=""></a>
+						</div>
+						<div class="item-info">
+							<a href="">XE ĐỜI MỚI</a>
+							<p>Với các mẫu xe mới nhất tại thị trường xe hơi tại Việt Nam. Giá cả cạnh tranh, ưu đãi thường xuyên cho khách hàng và lịch thuê dài ngày.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 item-intro">
+						<div class="img-height">
+							<a href=""><img src="img/icon3.png" alt=""></a>
+						</div>
+						<div class="item-info">
+							<a href="">THỦ TỤC Nhanh gọn</a>
+							<p>Với các mẫu xe mới nhất tại thị trường xe hơi tại Việt Nam. Giá cả cạnh tranh, ưu đãi thường xuyên cho khách hàng và lịch thuê dài ngày.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 item-intro">
+						<div class="img-height">
+							<a href=""><img src="img/icon4.png" alt=""></a>
+						</div>
+						<div class="item-info">
+							<a href="">ĐẶT XE BẤT KỲ LÚC NÀO</a>
+							<p>Với các mẫu xe mới nhất tại thị trường xe hơi tại Việt Nam. Giá cả cạnh tranh, ưu đãi thường xuyên cho khách hàng và lịch thuê dài ngày.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block-contact" id="block-contact" >
+			<div class="container-fuild p-3" style="display: flex; justify-content: end;">
+				<div style="width: fit-content;">
+						<p class="lh2-title1">DỊCH VỤ CHO THUÊ XE</p>
+						<p class="caption">Cung cấp dịch vụ cho thuê xe, du lịch từ 2 đến 40 chỗ</p>
+						<p class="bottom">Thủ tục nhanh gọn - Nhận xe nhanh chóng</p>
+						<button class="lh3-button" type=""><span><a href="#thue-ngay">Thuê Ngay</a></span></button>
+				</div>
+			</div>
+		</div>
+		<div id="thue-ngay"></div>
+		<div class="block-product">
+			<div class="container">
+				<p class="lh2-title"> <span>Thuê xe Vinfast</span></p>
+				<div class="row">
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a1.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">VinFast VF 8</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> Vinfast</p>
+							</div>
+						</div>
+					</div>
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/product1.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">VinFast VF 9</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> Vinfast</p>
+							</div>
+						</div>
+					</div>
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a3.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Lux A2.0</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> Vinfast</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block-product">
+			<div class="container">
+				<p class="lh2-title"> <span>Thuê xe TOYOTA</span></p>
+				<div class="row">
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a1.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Ferrari 488</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>7 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a2.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Lamborghini</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a3.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Toyota inova</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a4.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Camry</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a3.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Vios</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/toyota.png" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Corolla Altis</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>7 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> TOYOTA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+
+				</div>
+			</div>
+		</div>
+		<!-- end block-product -->
+		<div class="block-product">
+			<div class="container">
+				<p class="lh2-title"> <span>Thuê xe Honda</span></p>
+				<div class="row">
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a5.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">City</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/images.png" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Brio</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/images-1.png" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Civic</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a9.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">HR-V</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>40 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/10.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">CR-V</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>7 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/11.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Accord</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>7 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> HONDA</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+
+				</div>
+			</div>
+		</div>
+		<!-- end block-product -->
+		<div class="block-product">
+			<div class="container">
+				<p class="lh2-title">
+					<span>Thuê xe BMW</span>
+				</p>
+				<div class="row">
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/12.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">Series Sedan</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a1.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">BMW X5</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>6 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">BMW X7</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/a2.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">BMW i5 series</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/xe-vinfast-chay-thu.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">BMW i10i</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>4 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item-product col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="bg">
+							<div class="img-height">
+								<a class="img" href="product-detail.html">
+									<img class="img-fluid lh2-img" src="img/bmw-i8.jpg" alt="">
+								</a>
+							</div>
+							<div class="info-product">
+								<a class="name" href="product-detail.html">BMW i8</a>
+								<p class="price"> <b><i class="fas fa-tag"></i>Giá:</b> Liên hệ</p>
+								<p><b><i class="fab fa-accessible-icon"></i>Số chỗ: </b>2 Chổ</p>
+								<p><b><i class="fas fa-car"></i>Thương hiệu:</b> BMW</p>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+
+				</div>
+			</div>
+		</div>
+		<!-- end block-product -->
+		<div class="block-partner">
+			<div class="container">
+				<div class="responsive">
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/1.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/2.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/3.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/4.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/5.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/6.png" alt="">
+						</div>
+					</div>
+					<div class="col-2 item-partner">
+						<div class="bg">
+							<img class="img-fluid" src="img/4.png" alt="">
+						</div>
+					</div>
+				</div>
+				<button class="button-slider next"><i class="fas fa-chevron-right"></i></button>
+				<button class="button-slider prev"><i class="fas fa-chevron-left"></i></button>
+			</div>
+			
+		<div class="footer-bg">
+			<div data-include="footer"></div>
+		</div>
+		<a class="btn-top" id="bttop" href="javascript:void(0);" title="Top" style="display: inline;"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+	</div>
+	<!-- Javascript -->
+  	<script src="js/tether.min.js"></script>
+  	<script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/wow.min.js"></script>
+  	<script src="js/jquery.mmenu.all.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/lightslider.js"></script>
+    <script src="js/lightGallery.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content Website</title>
+	<meta name="description" content="Description Web"/>
+	<meta name="keywords" content="" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<link rel="icon" type="image/x-icon" href="/img/logo01-removebg-preview.ico">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/lightGallery.css" />
+	<link rel="stylesheet" href="css/lightslider.css"/>
+	<link rel="stylesheet" href="css/jquery.mmenu.positioning.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function() {
+            var includes = $('[data-include]')
+            $.each(includes, function() {
+                var file = 'layouts/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            });
+        });
+    </script>
+	<style>	
+		.block-slider{
+			background:  url('../img/3124570.jpg');
+			background-attachment: inherit;
+			background-position: top;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.div img{
+			object-fit: cover;
+			width: 100%;
+			max-height: 400px;
+			display:block;transition: all 2s ease;}
+		.div img:hover{transform: scale(1.5);}
+		.div p{display:block;overflow: hidden;}
+	</style>
+</head>
+<body>
+	<div class="lh-wrapper">
+		<div class="lh-header module-header">
+			<div data-include="header"></div>
+			<!-- end block-slider -->
+		</div>
+		<!-- end lh-header -->
+		<div class="module-contact">
+			<div class="container">
+				<div class="bread-crumb">
+					<a href="index.html">Trang chủ</a>
+					<span class="dot">/</span>
+					<span class="name">Liên hệ</span>
+				</div>
+			</div>
+			<div class="form">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6  col-lg-6 right h-100">
+							<p class="lh2-title1"><span>THÔNG TIN LIÊN HỆ</span></p>
+							<p><b>Địa chỉ: </b> Xã Quyết Thắng, Phường Tân Thịnh, TP.Thái Nguyên</p>
+							<p><b>Điện thoại: </b>0962 309 111</p>
+							<p><b>Fax: </b>+997 318 323</p>
+							<p><b>Email: </b>personal@website.com</p>
+								
+						</div>
+						<div class="col-xl-6  col-lg-6 col-md-12 h-100 d-inline w-100 left">
+							<p class="lh2-title1">Gửi liên hệ</p>
+							<form action="">
+								<div class="row">
+									<div class="col-sm-6 col-xs-12 col-12">
+										<div class="input-position">
+											<input type="text" placeholder="Tên người dùng" required>
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="col-sm-6 col-xs-12 col-12">
+										<div class="input-position">
+											<input type="email" required placeholder="Email ">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="col-sm-6 col-xs-12 col-12">
+										<div class="input-position">
+											<input type="text" placeholder="Số điện thoại" required>
+											<i class="fa fa-phone" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="col-sm-6 col-xs-12 col-12">
+										<div class="input-position">
+											<input type="text" placeholder="Subject">
+											<i class="fas fa-file-alt"></i>
+										</div>
+									</div>		
+								</div>
+								
+								<div class="input-position">
+									<textarea rows="5" placeholder="Tin nhắn"></textarea>
+									<i class="fas fa-file-alt"></i>
+								</div>
+								<button class="lh2-button float-right">Gửi</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block-map div">
+				<p><img class="img-fluid" src="img/map.png" alt=""></p>
+			</div>
+		</div>
+		<div class="footer-bg">
+			<div data-include="footer"></div>
+
+		</div>
+		<a class="btn-top" id="bttop" href="javascript:void(0);" title="Top" style="display: inline;"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+	</div>
+	<!-- Javascript -->
+  	<script src="js/tether.min.js"></script>
+  	<script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/wow.min.js"></script>
+  	<script src="js/jquery.mmenu.all.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/smoothscroll.js"></script>
+
+	<script>
+	new WOW().init();
+	</script>
+	<script src="js/main.js"></script>   
+</body>
+</html>
