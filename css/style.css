@@ -730,7 +730,7 @@ p.lh2-title span{
 			max-height: 700px;
 			}
 	.block-slider{
-		background:  url('../img/bg-contact.jpg');
+		/* background:  url('../img/bg-contact.jpg'); */
 		background-attachment: fixed;
 		background-position: top;
 		background-repeat: no-repeat;
