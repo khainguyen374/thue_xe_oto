@@ -151,7 +151,7 @@ function myFunction() {
 }
 
 jQuery(document).scroll(function(){
-  if(jQuery(this).scrollTop() > 500)
+  if(jQuery(this).scrollTop() > 400)
   {   
      jQuery('.header-position').css({"background":"#585858","transition-delay":"0.3s"});
      jQuery('.block-menu').css({"margin-top":"0px","transition-delay":"0.3s"});
