@@ -1620,3 +1620,6 @@ p.author{
 }
 
 
+.fa-searc:hover {
+	cursor: pointer;
+}
