@@ -586,7 +586,7 @@ p.lh2-title span.position:before{
 }
 .block-menu ul li{
     padding: 0;
-    /* margin: 0 -2px; */
+    margin: 0 -2px;
     position: relative;
     z-index: 100;
     transform: skew(-10deg);
