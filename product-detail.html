@@ -96,28 +96,7 @@
 										<p><b>Thương hiệu:</b> TOYOTA</p>
 										<p><b>Màu sắc:</b> Trắng - Xám</p>
 										<p><b>Đời xe:</b> 2014 - 2016</p>
-										<div class="row">
-											<div class="col-6">
-												<label for=""><b>Số lượng xe thuê:</b> </label>
-												<input type="number" name="" min="1"placeholder="1" class="w-100" required>
-											</div>
-											<div class="col-6">
-												<label for=""><b>Số ngày thuê:</b> </label>
-												<input type="number" name="" min="1"placeholder="1" class="w-100" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-6">
-												<label for=""><b>Ngày thuê</b> </label>
-												<input type="date" name=""  class="w-100" required>
-											</div>
-											<div class="col-6">
-												<label for=""><b>Ngày trả</b> </label>
-												<input type="date" name="" class="w-100" required>
-											</div>
-										</div>
 									 	<button class="lh2-button lh-show-bk">Thuê ngay</button>
-										<button class=" lh2-button" ><a href="cart.html" style="color: #fff;">Thêm vào giỏ hàng</a> </button>
 									</div>
 								</div>
 							</div>
@@ -250,19 +229,61 @@
 
 							</div>
 						</div>
+						
+						<div class="row">
+							<div class="col-6">
+								<label for=""><b>Số lượng xe thuê:</b> </label>
+								<input type="number" name="" min="1"placeholder="1" class="w-100" required>
+							</div>
+							<div class="col-6">
+								<label for=""><b>Số ngày thuê:</b> </label>
+								<input type="number" name="" min="1"placeholder="1" class="w-100" required>
+							</div>
+							<div class="col-6">
+								<label for=""><b>Ngày thuê</b> </label>
+								<input type="date" name=""  class="w-100" required>
+							</div>
+							<div class="col-6">
+								<label for=""><b>Ngày trả</b> </label>
+								<input type="date" name="" class="w-100" required>
+							</div>
+							<div class="col-6">
+								<label for=""><b>Gói dịch vụ</b> </label>
+								<select name="cars" id="cars" class="w-100" required>
+								<option value="volvo">Volvo</option>
+								<option value="saab">Saab</option>
+								<option value="mercedes">Mercedes</option>
+								<option value="audi">Audi</option>
+								</select>
+							</div>
+							
+							<div class="col-6">
+								<label for=""><b>Nơi nhận xe</b> </label>
+								<select name="cars" id="cars" class="w-100" required>
+								<option value="volvo">Volvo</option>
+								<option value="saab">Saab</option>
+								<option value="mercedes">Mercedes</option>
+								<option value="audi">Audi</option>
+								</select>
+							</div>
+							<div class="col-12">
+								<label for=""><b>Yêu cầu khác</b> </label>
+								<textarea name="" id="" cols="10" rows="3"></textarea>
+							</div>
+						</div>
 					</div>
 					<p class="box-title">Thông tin khách hàng</p>
-					<input type="" name="" placeholder="Họ và tên *">
+					<input type="" name="" placeholder="Họ và tên *" required>
 					<div class="row">
 						<div class="col-6">
-							<input type="" name="" placeholder="Email *">
+							<input type="" name="" placeholder="Email *" required>
 						</div>
 						<div class="col-6">
-							<input type="" name="" placeholder="Điện thoại *">
+							<input type="" name="" placeholder="Điện thoại *" required>
 						</div>
 					</div>
 					<div class="text-right">
-						<button class="lh2-button" type="">Đặt xe ngay</button>
+						<button class="lh2-button" type=""><a href="cart.html"></a>Đặt xe ngay</button>
 					</div>
 				</form>
 			</div>
